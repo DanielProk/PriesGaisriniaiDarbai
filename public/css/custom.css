@@ -1,0 +1,64 @@
+/* Custom styles for Priesgaisriniai Darbai */
+
+/* Fonts */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Hero section */
+.hero-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Transitions */
+.transition-colors {
+    transition: all 0.3s ease-in-out;
+}
+
+/* Custom shadows */
+.custom-shadow {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Custom button styles */
+.btn-primary {
+    background-color: #1d4ed8;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #1e40af;
+}
+
+/* Mobile menu */
+.mobile-menu {
+    transition: transform 0.3s ease-in-out;
+}
+
+.mobile-menu.hidden {
+    transform: translateX(-100%);
+}
+
+/* Custom card styles */
+.service-card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Footer styles */
+.footer-link {
+    transition: color 0.3s ease-in-out;
+}
+
+.footer-link:hover {
+    color: #93c5fd;
+}
